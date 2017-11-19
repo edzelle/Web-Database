@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Submit Information </title>
+</head>
+<body>
+
+
+
+<hi> Please enter your information bellow </hi>
+
+<p> Select your field of study and degree from the list bellow </p>
+<ul> 
+	<li> Mathematics, BA </li>
+	<li> Mathematics, BS </li>
+	<li> Mathematics, Minor </li>
+	<li> Computer Science, BA </li>
+	<li> Computer Science, BS </li>
+	<li> Computer Science / Mathematics, BS </li>
+	<li> Applied Mathematics, BA </li>
+	<li> Computer Science Informatics, Minor </li>
+	<li> Computer Science, Minor </li>
+	<li> Applied Mathematics, Minor </li>
+</ul>
+
+<form action = "test.php" method="post">
+Major: <input type="text" name = "major" /> 
+Degree: <input type = "text" name = "major_d"/><br><br>
+Major/Minor (Optional): <input type = "text" name = "op_major" />
+Degree: <input type = "text" name = "major_op_d"/> <br><br>
+Next Semester Year: <input type = "text" name = "next_year" /><br><br>
+Next Semester Season (Choose One): <input type = "checkbox" name = "next_Fall" value = "Fall"> Fall <input type = "checkbox" name = "next_Spring" value = "Spring"> Spring <br>
+Graduation Year: <input type = "text" name = "g_year"/><br><br>
+Fall or Spring (Choose One): <input type= "checkbox" name = "g_Fall" value = "Fall"> Fall <input type = "checkbox" name = "g_Spring" value = "Spring"> Spring  <br>
+
+Select the courses bellow that you have already taken <br>
+
+<input type="checkbox" name="MATH_111" value="MATH 111"> MATH 111 <input type="checkbox" name="CS_170" value="CS 170"> CS 170 <br>
+<input type="checkbox" name="MATH_112" value="MATH 112"> MATH 112 <input type="checkbox" name="CS_171" value="CS 171"> CS 171 <br>
+<input type="checkbox" name="MATH_211" value="MATH 211"> MATH 211 <input type="checkbox" name="CS_224" value="CS 224"> CS 224 <br>
+<input type="checkbox" name="MATH_212" value="MATH 212"> MATH 212 <input type="checkbox" name="CS_255" value="CS 255"> CS 255 <br>
+<input type="checkbox" name="MATH_221" value="MATH 221"> MATH 221 <input type="checkbox" name="CS_323" value="CS 323"> CS 323 <br>
+<input type="checkbox" name="MATH_250" value="MATH 250"> MATH 250 <input type="checkbox" name="CS_325" value="CS 325"> CS 325 <br>
+<input type="checkbox" name="MATH_270" value="MATH 270"> MATH 270 <input type="checkbox" name="CS_329" value="CS 329"> CS 329 <br>
+<input type="checkbox" name="MATH_315" value="MATH 315"> MATH 315 <input type="checkbox" name="CS_355" value="CS 355"> CS 355 <br>
+<input type="checkbox" name="MATH_318" value="MATH 318"> MATH 318 <input type="checkbox" name="CS_370" value="CS 370"> CS 370 <br>
+<input type="checkbox" name="MATH_321" value="MATH 321"> MATH 321 <input type="checkbox" name="CS_377" value="CS 377"> CS 377 <br>
+<input type="checkbox" name="MATH_328" value="MATH 328"> MATH 328 <input type="checkbox" name="CS_378" value="CS 378"> CS 378 <br>
+<input type="checkbox" name="MATH_330" value="MATH 330"> MATH 330 <input type="checkbox" name="CS_424" value="CS 424"> CS 424 <br>
+<input type="checkbox" name="MATH_344" value="MATH 344"> MATH 344 <input type="checkbox" name="CS_450" value="CS 450"> CS 450 <br>
+<input type="checkbox" name="MATH_345" value="MATH 345"> MATH 345 <input type="checkbox" name="CS_452" value="CS 452"> CS 452 <br>
+<input type="checkbox" name="MATH_346" value="MATH 346"> MATH 346 <input type="checkbox" name="CS_453" value="CS 453"> CS 453 <br>
+<input type="checkbox" name="MATH_347" value="MATH 347"> MATH 347 <input type="checkbox" name="CS_455" value="CS 455"> CS 455 <br>
+<input type="checkbox" name="MATH_351" value="MATH 351"> MATH 351 <input type="checkbox" name="CS_456" value="CS 456"> CS 456 <br>
+<input type="checkbox" name="MATH_352" value="MATH 352"> MATH 352 <br>
+<input type="checkbox" name="MATH_361" value="MATH 361"> MATH 361 <br>
+<input type="checkbox" name="MATH_362" value="MATH 362"> MATH 362 <br>
+<input type="checkbox" name="MATH_411" value="MATH 411"> MATH 411 <br>
+<input type="checkbox" name="MATH_412" value="MATH 412"> MATH 412 <br>
+<input type="checkbox" name="MATH_421" value="MATH 421"> MATH 421 <br>
+<input type="checkbox" name="MATH_422" value="MATH 422"> MATH 422 <br>
+<input type="checkbox" name="MATH_425" value="MATH 425"> MATH 425 <br>
+
+<input type = "Submit" /> <br>
+<br>
+
+
+</form>
+<form action = "course_planner.php" method = "post">
+More information on the courses listed <br><br>
+<input type = "Submit" name = "Course Information" value = "Course Information">
+</form>
+
+</body>
+</html>
